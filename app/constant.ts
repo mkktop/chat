@@ -323,7 +323,6 @@ export const VISION_MODEL_REGEXES = [
 export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 
 const openaiModels = [
-  "gemini-1.0-pro", // Deprecated on 2/15/2025
   "gemini-1.5-pro-latest",
   "gemini-1.5-pro",
   "gemini-1.5-pro-002",
@@ -342,7 +341,9 @@ const openaiModels = [
   "gemini-2.0-flash-thinking-exp-1219",
 ];
 
-
+const googleModels = [
+  "gemini-1.0-pro", // Deprecated on 2/15/2025
+];
 
 const anthropicModels = [
   "claude-instant-1.2",
